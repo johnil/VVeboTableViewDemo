@@ -175,6 +175,7 @@
     CFRelease(font1);
     CFRelease(framesetter);
     CFRelease(ctframe);
+    CFRelease(style);
     [[attributedStr mutableString] setString:@""];
     CGContextSetTextMatrix(context,CGAffineTransformIdentity);
     CGContextTranslateCTM(context,0, height);
